@@ -7,7 +7,6 @@ img {
 .page2 {
 	position: absolute;
 	top: -160px;
-	
 }
 
 .page4 {
@@ -42,43 +41,4 @@ a:hover {
 	background-color: darkgray;
 	margin: 5px;
 	animation-duration: 0.4s;
-	
-	
-	
-	.barba-once {
-		 transform: scale(0);
-	}
-	
-	.barba-once-active {
-		transition: transform 0.5s ease-in-out;
-	}
-	
-	.barba-once-to {
-		transform: scale(1);
-	}
-	
-	
-	.barba-leave {
-		opacity: 1;
-	}
-	
-	.barba-leave-active {
-		 
-		transition: opacity 0.3 ease;
-	}
-	
-	.barba-leave-to {
-		opacity: 0;
-	}
-	
-	.barba-enter {
-		opacity: 0;
-	}
-	
-	.barba-enter-active {
-		transition: opacity 0.3s ease;
-	}
-	
-	.barba-enter-to {
-		opacity: 1;
-	}
+}
